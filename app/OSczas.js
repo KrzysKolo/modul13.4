@@ -1,5 +1,5 @@
 var os= require('os');
-var info2 = require('./modules/czas.js');
+var info2 = require('../modules/czas.js');
 process.stdin.setEncoding('utf8');
 process.stdin.on('readable', function() {
     console.log("Wpisz exit, info, getOSinfo lub coś innego");
